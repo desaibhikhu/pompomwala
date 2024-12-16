@@ -20,7 +20,7 @@ FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", "-1002331821350"))
 #bot stats
 BOT_STATS_TEXT = os.environ.get("BOTS_STATS_TEXT","<b>BOT UPTIME </b>\n{uptime}")
 #send custom message when user interact with bot
-USER_REPLY_TEXT = os.environ.get("USER_REPLY_TEXT", "ᴅᴏɴ'ᴛ ᴛᴇxᴛ ᴍᴇ ᴅᴀᴅᴅʏ! ɪ'ᴍ ᴏɴʟʏ ᴀ ꜱɪᴍᴘʟᴇ ʙᴏᴛ!\n\nᴛᴏ ᴄᴏɴᴛᴀᴄᴛ ᴛʜᴇ ᴀᴅᴍɪɴꜱ ᴏʀ ᴘᴜʀᴄʜᴀꜱᴇ ᴘʀᴇᴍɪᴜᴍ, ᴛᴇxᴛ ᴏɴ @Cultured_starsbot")
+USER_REPLY_TEXT = os.environ.get("USER_REPLY_TEXT", "<blockquote>ᴅᴏɴ'ᴛ ᴛᴇxᴛ ᴍᴇ ᴅᴀᴅᴅʏ! 😧</blockquote>\n\nᴛᴏ ᴄᴏɴᴛᴀᴄᴛ ᴛʜᴇ ᴀᴅᴍɪɴꜱ ᴏʀ ᴘᴜʀᴄʜᴀꜱᴇ ᴘʀᴇᴍɪᴜᴍ, ᴛᴇxᴛ ᴏɴ @Cultured_starsbot")
 
 #your bot token here from https://telegram.me/BotFather
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7848773969:AAGLm5xbQ-kTkqoZc1lOQkCiUD7reHcek08") 
