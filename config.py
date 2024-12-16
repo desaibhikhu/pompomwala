@@ -42,7 +42,7 @@ DB_NAME = os.environ.get("DB_NAME", "maamtwo")
 #for creating telegram thread for bot to improve performance of the bot
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 #your start default command message.
-START_MSG = os.environ.get("START_MESSAGE", "ʜᴇʟʟᴏ ᴅᴀᴅᴅʏ {mention}!!🌚\n\nɪ ᴀᴍ ᴅᴇꜱɪɢɴᴇᴅ ᴛᴏ ꜱʜᴀʀᴇ ꜰɪʟᴇꜱ ᴛʜʀᴏᴜɢʜ ꜱᴘᴇᴄɪᴀʟ ʟɪɴᴋꜱ!! 🪄\n\nɪ ᴡᴏʀᴋ ᴡɪᴛʜɪɴ @Cultured_stars ᴏɴʟʏ ᴀɴᴅ ʏᴏᴜ ᴀʀᴇ ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴜꜱᴇ ᴍᴇ! 🎀")
+START_MSG = os.environ.get("START_MESSAGE", "ᴡᴇʟᴄᴏᴍᴇ ʜᴏᴍᴇ, ᴅᴀᴅᴅʏ! 🌚\n\nʜᴏᴘᴇ ʏᴏᴜ'ʀᴇ ᴅᴏɪɴɢ ɢᴏᴏᴅ. 🥵\n\n<blockquote>ᴡᴀɴɴᴀ ʜᴀᴠᴇ ꜱᴏᴍᴇ ꜰᴜɴ? ɢᴇᴛ ꜱᴏᴍᴇ ꜰᴜɴ ꜱᴛᴜꜰꜰ ꜰʀᴏᴍ @Cultured_stars 💦</blockquote>")
 #your telegram tag without @
 OWNER_TAG = os.environ.get("OWNER_TAG", "cultured_starsbot")
 #Time in seconds for message delete, put 0 to never delete
