@@ -35,16 +35,16 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "507206621"))
 #port set to default 8080
 PORT = os.environ.get("PORT", "6666")
 #your database url mongodb only You can use mongo atlas free cloud database
-DB_URL = os.environ.get("DB_URL", "mongodb+srv://infohubstore06:8x2aoGD863ejcWsJ@maamtwo.gzb3m.mongodb.net/?retryWrites=true&w=majority&appName=maamtwo")
+DB_URL = os.environ.get("DB_URL", "")
 #your database name
-DB_NAME = os.environ.get("DB_NAME", "maamtwo")
+DB_NAME = os.environ.get("DB_NAME", "")
 
 #for creating telegram thread for bot to improve performance of the bot
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 #your start default command message.
-START_MSG = os.environ.get("START_MESSAGE", "ᴡᴇʟᴄᴏᴍᴇ ʜᴏᴍᴇ, ᴅᴀᴅᴅʏ! 🌚\n\nʜᴏᴘᴇ ʏᴏᴜ'ʀᴇ ᴅᴏɪɴɢ ɢᴏᴏᴅ. 🥵\n\n<blockquote>ᴡᴀɴɴᴀ ʜᴀᴠᴇ ꜱᴏᴍᴇ ꜰᴜɴ? ɢᴇᴛ ꜱᴏᴍᴇ ꜰᴜɴ ꜱᴛᴜꜰꜰ ꜰʀᴏᴍ @Cultured_stars 💦</blockquote>")
+START_MSG = os.environ.get("START_MESSAGE", "ᴡᴇʟᴄᴏᴍᴇ ʜᴏᴍᴇ, ᴅᴀᴅᴅʏ! 🌚\n\nʜᴏᴘᴇ ʏᴏᴜ'ʀᴇ ᴅᴏɪɴɢ ɢᴏᴏᴅ. 🥵\n\n<blockquote>ᴡᴀɴɴᴀ ʜᴀᴠᴇ ꜱᴏᴍᴇ ꜰᴜɴ? ɢᴇᴛ ꜱᴏᴍᴇ ꜰᴜɴ ꜱᴛᴜꜰꜰ ꜰʀᴏᴍ @Desaibhikhu 💦</blockquote>")
 #your telegram tag without @
-OWNER_TAG = os.environ.get("OWNER_TAG", "cultured_starsbot")
+OWNER_TAG = os.environ.get("OWNER_TAG", "Desaibhikhu")
 #Time in seconds for message delete, put 0 to never delete
 TIME = int(os.environ.get("TIME", "600"))
 
@@ -57,12 +57,12 @@ https://dashboard.shareus.io/
 
 # Turn this feature on or off using True or False put value inside  ""
 # TRUE for yes FALSE if no 
-USE_SHORTLINK = True if os.environ.get('USE_SHORTLINK', "False") == "TRUE" else False 
+USE_SHORTLINK = True if os.environ.get('USE_SHORTLINK', "TRUE") == "TRUE" else False 
 # only shareus service known rightnow rest you can test on your own
-SHORTLINK_API_URL = os.environ.get("SHORTLINK_API_URL", "instantlinks.co")
-# SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "beb3b795a226177f3af7c937a2f01d5d7d4f4cf0")
+SHORTLINK_API_URL = os.environ.get("SHORTLINK_API_URL", "bedlio.xyz")
+# SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "c605be34bcdc02bfed6e64910437b40be91d5a95")
 #use this key if not working ☠️ (jokin!!)
-SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "068bfe93b5ef479dcaed34b6f879049c438932c8")
+SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "c605be34bcdc02bfed6e64910437b40be91d5a95")
 #add your custom time in secs for shortlink expiration.
 # 24hr = 86400
 # 12hr = 43200
